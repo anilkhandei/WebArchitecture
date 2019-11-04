@@ -17,7 +17,6 @@ Example model using <strong>JToken</strong> type-</p>
 {
     public int Id { get; set; }
     public int UserId { get; set; }
-
     public JToken Payload { get; set; }
     public int ContextTypeId { get; set; }
     public int SessionId { get; set; }
@@ -33,7 +32,6 @@ Example model using <strong>JToken</strong> type-</p>
 {
     public int Id { get; set; }
     public int UserId { get; set; }
-
     public object Payload { get; set; }
     public int ContextTypeId { get; set; }
     public int SessionId { get; set; }
